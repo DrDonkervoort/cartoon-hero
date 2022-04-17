@@ -25,7 +25,7 @@ header h1{
 	text-align: center;
 	position: relative;
 	left: 260px;
-	top: 152px;	
+	top: 218px;	
 }
 
 /*header image and related css*/
@@ -38,7 +38,7 @@ header img{
 .homeimage{
 	position: relative;
 	left: 52%;
-	bottom: 269px;
+	bottom: 181px;
 	width: fit-content;
 }
 
@@ -56,14 +56,14 @@ a{
 	color: #d14635;
 }
 a:hover{
-	color: white;
+	color: #d14635;
 	background-color: #483a94;
 }
 
 footer{
-	background-color: #d14635;
+	background-color: white;
 	text-align: center;
-	color: white;
+	color: #d14635;
 	padding: 8px;
 }
 
@@ -72,16 +72,9 @@ footer p{
 }
 
 footer a{
-	color: white;
+	color: #d14635;
 }
 footer a:hover{
 	opacity: .5;
 	background-color: transparent;
 }
-
-p.caption{
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
-}
-
