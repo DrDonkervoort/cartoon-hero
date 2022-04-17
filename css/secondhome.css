@@ -1,0 +1,79 @@
+/*body and related css*/
+body{
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+}
+
+/*header text and related css*/
+header{
+background-color: #d14635;
+text-align: center;
+padding-top: 10px;
+min-width: 1000px;
+}
+
+header h1{
+color: white;
+font-size: 75px;
+}
+
+.headerbanner{
+position: relative;
+color: white;
+top: 230px;
+left: 100px;
+text-align: center;
+margin: 20px;
+width: 40%;
+height: 400px;
+}
+
+/*header image and related css*/
+header img{
+    border-radius: 50px;
+    width: 600px;
+    border: 20px solid whitesmoke;
+}
+
+.homeimage{
+position: relative;
+left: 52%;
+bottom: 275px;
+width: 40%;
+margin: 40px;
+
+}
+
+a{
+	color: #d14635;
+}
+a:hover{
+	color: white;
+	background-color: #483a94;
+}
+
+footer{
+	background-color: #d14635;
+	text-align: center;
+	color: white;
+	padding: 8px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
