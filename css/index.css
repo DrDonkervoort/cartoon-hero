@@ -43,7 +43,7 @@ a{
 	color: #d14635;
 }
 a:hover{
-color: white;
+	color: white;
 	background-color: #483a94;
 }
 
@@ -71,4 +71,3 @@ p.caption{
 	font-style: italic;
 	margin-top: 0;
 }
-
