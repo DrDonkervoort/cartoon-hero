@@ -1,3 +1,87 @@
+/*body and related css*/
 body{
+	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
+
+/*header text and related css*/
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding-top: 10px;
+}
+
+header h1{
+	color: white;
+	font-size: 75px;
+}
+
+.headerbanner{
+	color: white;
+	padding: 10px;
+	width: 627px;
+	text-align: center;
+	position: relative;
+	left: 260px;
+	top: 152px;	
+}
+
+/*header image and related css*/
+header img{
+    border-radius: 50px;
+    width: 600px;
+    border: 20px solid whitesmoke;
+}
+
+.homeimage{
+	position: relative;
+	left: 52%;
+	bottom: 269px;
+	width: fit-content;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+a{
+	color: #d14635;
+}
+a:hover{
+	color: white;
+	background-color: #483a94;
+}
+
+footer{
+	background-color: #d14635;
+	text-align: center;
+	color: white;
+	padding: 8px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
+
