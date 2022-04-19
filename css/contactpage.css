@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+
+/*navbar and related css*/
+.col{
+	border: 2px solid #d14635;
+	padding: 5px;
+	background-color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.col:first-child{
+	margin-left: 0;
+}
+
+.navbar{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.navbar:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+a{
+	color: #d14635;
+}
+a:hover{
+	color: white;
+	background-color: #d14635;
+}
+
+/*Header CSS*/
+header{
+	background-color: #d14635;
+	margin: 0 auto;
+}
+
+header h1{
+	color: white;
+	font-size: 60px;
+}
+
+.burger{
+	color: white;
+	padding: 30px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/*Main Section (Info) CSS*/
+.mainrow{
+	width: 50%;
+	margin: 0 auto 20px;
+	margin-top: 20px;
+}
+
+.mainrow:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.maincol{
+	position: relative;
+	left: 15px;
+	border: 4px dashed rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	background-color: #FFD400;
+	margin-left: 300px;
+	width: 800px;
+	height: 150px;
+	box-sizing: border-box;
+}
+
+.maincol:first-child{
+	margin-left: 0;
+}
+
+.namecol{
+	border: 4px dashed rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	background-color: #FFD400;
+	float: left;
+	margin-left: 20px;
+	width: 300px;
+	box-sizing: border-box;
+}
+
+.namecol:first-child{
+	margin-left: 0;
+}
+
+/*Disclaimer CSS*/
+.disclaimer{
+	background-color: #d14635;
+	padding: 10px;
+	margin: 30px 80px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+
+/*Footer CSS*/
+footer{
+	background-color: #d14635;
+	text-align: center;
+	color: white;
+	padding: 8px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+

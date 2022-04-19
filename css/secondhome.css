@@ -1,9 +1,8 @@
-/*body and related css*/
 body{
-margin: 0;
-font-family: 'Open Sans', sans-serif;
-font-size: 20px;
-line-height: 30px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 /*navbar and related css*/
@@ -32,47 +31,6 @@ line-height: 30px;
 	clear: both;
 }
 
-/*header text and related css*/
-header{
-background-color: #d14635;
-text-align: center;
-padding-top: 10px;
-min-width: 1000px;
-}
-
-header h1{
-color: white;
-font-size: 75px;
-}
-
-.headerbanner{
-position: relative;
-color: white;
-top: 230px;
-left: 100px;
-text-align: center;
-margin: 20px;
-width: 40%;
-height: 400px;
-}
-
-/*header image and related css*/
-header img{
-    border-radius: 50px;
-    width: 600px;
-    border: 20px solid whitesmoke;
-}
-
-.homeimage{
-position: relative;
-left: 52%;
-bottom: 275px;
-width: 40%;
-margin: 40px;
-
-}
-
-/*footer css*/
 a{
 	color: #d14635;
 }
@@ -81,6 +39,32 @@ a:hover{
 	background-color: #d14635;
 }
 
+/*THE CULPRIT!!!*/
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding: 24px;
+	max-width: 100%;
+}
+
+header img{
+	border-radius: 270px;
+    width: 600px;
+    border: 20px solid whitesmoke;
+    
+}
+
+.headertext{
+	color: white;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header h1{font-size: 60px;}
+header h2{font-size: 40px;}
+header p{font-size: 20px;}
+
+/*footer css*/
 footer{
 	background-color: #d14635;
 	text-align: center;
@@ -98,10 +82,4 @@ footer a{
 footer a:hover{
 	opacity: .5;
 	background-color: transparent;
-}
-
-p.caption{
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
 }
