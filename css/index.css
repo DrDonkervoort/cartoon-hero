@@ -3,6 +3,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
+	background-color: #f0e5e4;
 }
 
 /*navbar and related css*/
@@ -41,7 +42,7 @@ header{
 
 header h1{
 	color: white;
-	font-family: 50px;
+	font-size: 60px;
 }
 
 header img{
