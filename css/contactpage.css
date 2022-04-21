@@ -76,7 +76,7 @@ header h1{
 
 .maincol{
 	position: relative;
-	left: 15px;
+	left: -138px;
 	border: 2px solid black;
 	padding: 10px;
 	background-color: white;
@@ -92,6 +92,8 @@ header h1{
 }
 
 .namecol{
+	position: relative;
+	right: 157px;
 	border: 2px solid black;
 	padding: 10px;
 	background-color: white;
