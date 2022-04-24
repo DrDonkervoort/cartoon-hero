@@ -68,12 +68,16 @@ main{
 main img{
 	max-width: 100%;
 	border: 5px solid black;
+	box-sizing: border-box;
 }
 
 main span{
 	display: block;
 	text-align: center;
 	font-size: 15px;
+	padding: 2px;
+	border: 1px solid black;
+
 }
 
 h2{
